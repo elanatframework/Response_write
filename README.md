@@ -1,3 +1,4 @@
+![ ](https://github.com/user-attachments/assets/49d9757c-9947-4d5e-b6ba-a72ee241e8c5)
 # ResponseWrite
 
 A lightweight middleware for ASP.NET Core to write content to the response stream **after** the execution of Razor Pages, MVC Views, or API Controllers.
@@ -89,4 +90,5 @@ public IActionResult OnGet()
     Response.Write(form.ExportToHtmlComment());
     return Page();
 }
+
 ```
